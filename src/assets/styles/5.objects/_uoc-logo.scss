@@ -6,7 +6,7 @@
   max-width: 200px;
   height: auto;
 
-  @media (min-width: variables.$mqMinWidth) {
+  @media (min-width: $mqMinWidth) {
     max-width: none;
   }
 }
