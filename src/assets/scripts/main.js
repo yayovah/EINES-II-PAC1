@@ -3,8 +3,12 @@
  * see commented examples below
  */
 
+import AOS from 'aos';
+
 // import 'some-node-module';
 // import SomeModule from 'some-node-module';
+
+
 
 /**
  * Write any other JavaScript below
@@ -14,3 +18,5 @@
   const university = "UOC";
   console.log(`Hello, ${university}!`);
 } )();
+
+AOS.init();
