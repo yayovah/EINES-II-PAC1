@@ -5,13 +5,19 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: stretch; // 💡 AIXÒ ÉS LA CLAU
-    gap:20px;
+    align-items: stretch;
+
+    @media (width < $mqMinWidth) {
+        flex-direction: column;
+        gap:20px;
+    }
 }
 
 li{
     margin: 0;
     padding: 0;
-      display: flex;          // 💡 afegeix això
-  flex-direction: column; // per mantenir l’estructura vertical
+    display: flex;
+    flex-direction: column;
+
+
 }

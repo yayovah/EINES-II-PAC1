@@ -4,7 +4,8 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: -7px 7px 5px #0000001a;
-    max-width: 290px;
+    width: 295px;
+    color: $text-negre;
 
     figure{
         margin: 0;
@@ -22,12 +23,12 @@
         font-size: 0.7em;
         display: inline;
         right:0;
+        color:$text-negre;
     }
     .contingut{
         position: relative;
         top: -35px;
-        padding: 0 24px;
-        color: $text-negre    
+        padding: 0 24px;  
     }
 
     @media (width < $mqMinWidth) {

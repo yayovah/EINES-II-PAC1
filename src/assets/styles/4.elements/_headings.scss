@@ -1,13 +1,15 @@
 h1{
     font-size: $font-size-gegant;
     font-weight: $font-weight-pesat;
-    line-height: $line-height-normal;
+    line-height: 0;
     color:$valls-blanc;
     font-family: $font-especial;
     text-shadow: $font-ombrejada;
+    margin:0;
 
     @media (width < $mqMinWidth) {
-            font-size: $font-size-extra;
+        font-size: $font-size-extra;
+        line-height: $line-height-normal;
     }
 }
 

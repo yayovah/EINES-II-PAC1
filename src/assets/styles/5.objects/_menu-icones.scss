@@ -1,4 +1,11 @@
 .o-menu-icones{
     gap: 20px;
     justify-content: center;
+
+    @media (width < $mqMinWidth) {
+        flex-direction: unset;
+        flex-wrap: wrap;
+        zoom: 0.5;
+    }
+    
 }

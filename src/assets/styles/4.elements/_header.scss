@@ -2,8 +2,10 @@ header{
     background-image: url(../images/ac.jpg);
     background-size: cover;
     background-position: center;    
+    background-attachment: fixed;    
+    background-repeat: no-repeat;
     background-color: $fons-fosc;
-    min-height: 400px;
+    min-height: 500px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -13,11 +15,14 @@ header{
         color: $valls-principal;
         font-family: $font-family-manual;
         text-shadow: $font-ombrejada;
-        font-size: $font-size-extra;
+        font-size: $font-size-gegant;
+        line-height: 0;
         
     }
 
     @media (width < $mqMinWidth) {
-        min-height: 200px;
+        min-height: 500px;
+        background-size:unset;
+        background-position: top;    
     }
 }

@@ -1,0 +1,10 @@
+aside{
+    position: fixed;
+    top:20px;
+    left:20px;
+    ul{
+        flex-direction: column;
+    }
+    zoom:0.5;
+    z-index: 100;
+}
