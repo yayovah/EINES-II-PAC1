@@ -1,0 +1,16 @@
+.u-white-text{
+    color:$valls-blanc;
+}
+
+.u-fons-valls{
+    background-color: $valls-principal;
+}
+
+.u-contrast{
+    @include contrastat();
+}
+
+.u-hand{
+    font-family: $font-family-manual;
+    font-size: 120%;
+}

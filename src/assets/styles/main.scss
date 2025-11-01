@@ -30,19 +30,22 @@
 
 @import '3.generic/reset';
 
+@import '4.elements/a';
 @import '4.elements/body';
+@import '4.elements/footer';
 @import '4.elements/headings';
 @import '4.elements/header';
-@import '4.elements/footer';
-@import '4.elements/main';
 @import '4.elements/lists';
+@import '4.elements/main';
+@import '4.elements/nav';
 @import '4.elements/section';
 
+
+@import '5.objects/mapa';
+@import '5.objects/menu-icones';
 @import '5.objects/targeta';
-@import '5.objects/uoc-container';
-@import '5.objects/uoc-logo';
-@import '5.objects/uoc-title';
-/*
-@import '6.components/';
-@import '7.utilities';
-*/
+
+@import '6.components/boto-icones';
+
+@import '7.utilities/contrast';
+@import '7.utilities/amplades';

@@ -1,37 +1,41 @@
-.targeta{
-    border: 1px solid #da0000;
+.o-targeta{
+    flex: 1;
+    border: 1px solid $valls-clar;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: -7px 7px 5px #0000001a;
-    max-width: 300px;
-    margin: 1rem;
+    max-width: 290px;
+
+    figure{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    figcaption{
+        background-color: rgba(255, 255, 255, 0.5);
+        position:relative;
+        top: -35px;
+        text-align: right;
+        font-size: 0.7em;
+        display: inline;
+        right:0;
+    }
+    .contingut{
+        position: relative;
+        top: -35px;
+        padding: 0 24px;
+        color: $text-negre    
+    }
+
+    @media (width < $mqMinWidth) {
+        max-width: 100%;
+        width:100%;
+        margin:0;
+    }
 }
 
-.targeta__figure{
-    margin: 0;
-}
 
-.targeta__img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.targeta__figcaption{
-    background-color: rgba(255, 255, 255, 0.5);
-    position:relative;
-    top: -35px;
-    text-align: right;
-    font-size: 0.7em;
-    display: inline;
-    right:0;
-}
-
-.targeta__contingut{
-    padding: 1rem;
-}
-
-.targeta__titol{
-
-}   
 

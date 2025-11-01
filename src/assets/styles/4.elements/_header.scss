@@ -1,11 +1,23 @@
 header{
-
     background-image: url(../images/ac.jpg);
     background-size: cover;
     background-position: center;    
-    height: 300px;
-    background-color: rgb(71, 69, 69);
-    padding: 64px;
-    width: 100%;
+    background-color: $fons-fosc;
+    min-height: 400px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h4{
+        color: $valls-principal;
+        font-family: $font-family-manual;
+        text-shadow: $font-ombrejada;
+        font-size: $font-size-extra;
+        
+    }
+
+    @media (width < $mqMinWidth) {
+        min-height: 200px;
+    }
 }

@@ -1,9 +1,29 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
+$font-family-manual: 'Caveat', cursive;
 $font-especial: "Montserrat", sans-serif;
-$font-ombrejada: 4px 4px 8px #000;
+
+$font-ombrejada: 4px 4px 8px $text-negre;
+
+$font-size-normal: 16px;
+$font-size-gran: 30px;
+$font-size-petita: 12px; 
+$font-size-extra: 36px;
+$font-size-gegant: 64px;
+
+$font-weight-normal: 400;
+$font-weight-pesat: 800;
+$font-weight-light: 200;
+
+$line-height-normal: 1.5;
+$line-height-gran: 2;  
+$line-height-apretat: 1.25;
+
+
 
 

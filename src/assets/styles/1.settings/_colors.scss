@@ -1,13 +1,18 @@
 @use "sass:color";
 
 $uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
+$uoc-masterbrand: #ff7373;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 
-$text-negre: #0f0f0f;
-$text-blanc: #fff3f3;   
-$text-destacat: #ad0000;
+$valls-principal: #ff7373;
+$valls-clar: color.scale($valls-principal, $lightness: 50%);
+$valls-fosc: color.scale($valls-principal, $lightness: -50%);
+$valls-blanc: color.scale($valls-principal, $lightness: 90%);
 
-$fons-fosc: #808181;
+
+$text-negre: color.scale($valls-principal, $lightness: -90%);;
+$text-blanc: color.scale($valls-principal, $lightness: 85%);
+$text-destacat: #9f4545;
+
+$fons-fosc: #e4e4e4;
 $fons-clar: color.scale($fons-fosc, $lightness: 70%);
-
