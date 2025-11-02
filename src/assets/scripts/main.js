@@ -19,4 +19,6 @@ import AOS from 'aos';
   console.log(`Hello, ${university}!`);
 } )();
 
-AOS.init();
+AOS.init({
+  disable: 'mobile', // desactiva AOS automàticament en mòbils
+});

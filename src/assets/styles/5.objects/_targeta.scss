@@ -16,19 +16,14 @@
         object-fit: cover;
     }
     figcaption{
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: $fons-translucid;
         position:relative;
         top: -35px;
         text-align: right;
-        font-size: 0.7em;
+        font-size: $font-size-petita;
         display: inline;
         right:0;
         color:$text-negre;
-    }
-    .contingut{
-        position: relative;
-        top: -35px;
-        padding: 0 24px;  
     }
 
     @media (width < $mqMinWidth) {

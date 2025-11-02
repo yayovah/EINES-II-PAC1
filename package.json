@@ -10,7 +10,7 @@
     "dev": "npm-run-all clean parcel:serve",
     "build": "npm-run-all clean stylelint parcel:build",
     "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'",
-    "stylelint": "stylelint 'src/assets/styles/**/*.scss'"
+    "stylelint": "stylelint \"src/assets/styles/**/*.scss\""
   },
   "targets": {
     "web": {
@@ -45,6 +45,7 @@
     "rimraf": "^6.0.1",
     "sharp": "^0.33.5",
     "stylelint-config-recommended-scss": "^16.0.2",
+    "stylelint-order": "^7.0.0",
     "stylelint-scss": "^6.12.1"
   },
   "dependencies": {

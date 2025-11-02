@@ -1,4 +1,10 @@
+/* COLORS */
+
 @use "sass:color";
+
+.o-cases{
+    width: 100px;
+}
 
 $uoc-corporate: #000078;
 $uoc-masterbrand: #ff7373;
@@ -16,3 +22,4 @@ $text-destacat: #9f4545;
 
 $fons-fosc: #e4e4e4;
 $fons-clar: color.scale($fons-fosc, $lightness: 70%);
+$fons-translucid: rgba(255, 255, 255, 0.5);

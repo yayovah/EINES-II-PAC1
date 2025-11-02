@@ -11,18 +11,9 @@ header{
     flex-direction: column;
     justify-content: center;
 
-    h4{
-        color: $valls-principal;
-        font-family: $font-family-manual;
-        text-shadow: $font-ombrejada;
-        font-size: $font-size-gegant;
-        line-height: 0;
-        
-    }
-
     @media (width < $mqMinWidth) {
-        min-height: 500px;
-        background-size:unset;
+        min-height: 100vh;
+        background-size:cover;
         background-position: top;    
     }
 }

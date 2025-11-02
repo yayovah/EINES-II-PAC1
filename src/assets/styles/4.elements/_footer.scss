@@ -5,4 +5,9 @@ footer{
   text-align: center;
   background-color: black;
   color: $valls-clar;
+
+    @media (width < $mqMinWidth) {
+      padding-bottom: 96px;
+    }
+
 }

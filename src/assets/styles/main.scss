@@ -15,18 +15,12 @@
  @use "layouts/home";
  */
 
- 
-
-/**
- * Do NOT include anything else in this file!
- */
-
-
 @import '1.settings/colors';
 @import '1.settings/fonts';
-@import '1.settings/responsive';
+@import '1.settings/mides';
 
 @import '2.tools/dependencies';
+@import '2.tools/mixins';
 
 @import '3.generic/reset';
 
@@ -47,8 +41,17 @@
 @import '5.objects/targeta';
 
 @import '6.components/boto-icones';
+@import '6.components/contingut';
 
 @import '7.utilities/contrast';
 @import '7.utilities/amplades';
 @import '7.utilities/espais';
 @import '7.utilities/extres';
+ 
+
+/**
+ * Do NOT include anything else in this file!
+ */
+
+
+

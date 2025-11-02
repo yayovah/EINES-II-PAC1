@@ -6,10 +6,10 @@ ul{
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: stretch;
+    gap:$gap-normal;
 
     @media (width < $mqMinWidth) {
         flex-direction: column;
-        gap:20px;
     }
 }
 
@@ -18,6 +18,4 @@ li{
     padding: 0;
     display: flex;
     flex-direction: column;
-
-
 }

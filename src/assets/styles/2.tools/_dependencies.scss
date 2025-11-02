@@ -8,9 +8,3 @@
 
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 @import "npm:aos/dist/aos.css";
-
-@mixin contrastat($fons: $valls-principal, $text: $valls-blanc) {
-  background-color: $fons;
-  color: $text;
-  border-color: $fons;
-}

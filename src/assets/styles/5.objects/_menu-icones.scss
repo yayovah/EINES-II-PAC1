@@ -1,5 +1,5 @@
 .o-menu-icones{
-    gap: 20px;
+    gap: $gap-normal;
     justify-content: center;
 
     @media (width < $mqMinWidth) {
@@ -7,5 +7,4 @@
         flex-wrap: wrap;
         zoom: 0.5;
     }
-    
 }
